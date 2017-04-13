@@ -32,11 +32,71 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="initialize.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="initialize.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/initialize.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26795095">
+            <state vertical-scroll-proportion="-5.8846154">
               <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/au/details.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="145.98181">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="house.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/au/house.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-26.807692">
+              <caret line="68" column="145" selection-start-line="68" selection-start-column="131" selection-end-line="68" selection-end-column="145" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="land.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/au/land.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.6181818">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unit.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/au/unit.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.927273">
+              <caret line="67" column="131" selection-start-line="67" selection-start-column="131" selection-end-line="67" selection-end-column="145" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commercial.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/au/commercial.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.538462">
+              <caret line="36" column="145" selection-start-line="36" selection-start-column="145" selection-end-line="36" selection-end-column="145" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="farm.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/au/farm.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3136574">
+              <caret line="20" column="145" selection-start-line="20" selection-start-column="145" selection-end-line="20" selection-end-column="145" />
               <folding />
             </state>
           </provider>
@@ -49,6 +109,10 @@
       <list>
         <option value="$PROJECT_DIR$/_includes/dbconfig.php" />
         <option value="$PROJECT_DIR$/_includes/initialize.php" />
+        <option value="$PROJECT_DIR$/au/house.php" />
+        <option value="$PROJECT_DIR$/au/unit.php" />
+        <option value="$PROJECT_DIR$/au/commercial.php" />
+        <option value="$PROJECT_DIR$/au/farm.php" />
       </list>
     </option>
   </component>
@@ -61,10 +125,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="328" />
-    <option name="y" value="279" />
-    <option name="width" value="1285" />
-    <option name="height" value="734" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -117,7 +181,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
+              <option name="myItemId" value="au" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -141,10 +205,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="328" y="279" width="1285" height="734" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1891253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -182,8 +246,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/initialize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26795095">
+        <state vertical-scroll-proportion="-5.8846154">
           <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/au/details.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="145.98181">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/au/house.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-26.807692">
+          <caret line="68" column="145" selection-start-line="68" selection-start-column="131" selection-end-line="68" selection-end-column="145" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/au/land.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6181818">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/au/unit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.927273">
+          <caret line="67" column="131" selection-start-line="67" selection-start-column="131" selection-end-line="67" selection-end-column="145" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/au/commercial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.538462">
+          <caret line="36" column="145" selection-start-line="36" selection-start-column="145" selection-end-line="36" selection-end-column="145" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/au/farm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3136574">
+          <caret line="20" column="145" selection-start-line="20" selection-start-column="145" selection-end-line="20" selection-end-column="145" />
           <folding />
         </state>
       </provider>
