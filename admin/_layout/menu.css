@@ -1,0 +1,29 @@
+	#menu{
+		margin: 2px;
+		background: #0382a7;
+		width: 996x;
+		height: 35px;
+	}
+	#menu>ul{
+		margin: 0;
+		padding: 0;
+	}
+	#menu>ul>li{
+		float: left;
+		height: 25px;
+		padding: 5px;
+	}
+	#menu>ul>li:hover{
+		height: 20px;
+		border-bottom: 5px solid lightgreen;
+		color: #015b75;
+	}
+	#menu>ul>li>a{
+		color: white;
+		font-size: 20px;
+		height: 35px;
+	}
+	#menu>ul>li>a:hover{
+		height: 35px;
+		color: lightgreen;
+	}

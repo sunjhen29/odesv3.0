@@ -1,0 +1,27 @@
+#wrap,#header,#footer{
+		width: 350px;
+	}
+	label{
+		display: block;
+	}
+	fieldset{
+		width: 282px;
+	}
+	form{
+		margin: auto;
+		width: 300px;
+		border: 2px solid #0489B1;
+	}
+	form>h2{
+		background: #0489B1;
+		padding: 9px;
+		color: white;
+	}
+	input[type="text"], input[type="password"], select{
+		width: 278px;
+		height: 30px;
+		font-size: 18px;
+	}
+	input[type="submit"]{
+		float: right;
+	}

@@ -1,0 +1,249 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#wrap{
+	margin: auto;
+	padding: 0;
+	width: 100%;
+	font-family: Helvetica;
+}
+a:link{
+	text-decoration: none;
+}
+#header{
+	position: fixed;
+	width: 100%;
+	height: 130px;	
+	background: white;
+	z-index: 2;
+}
+#content{
+	position: relative;
+	top: 181px;
+	padding: 25px;
+	margin-bottom: 60px;
+	z-index: 1;
+}
+#display{
+	font-size: 16px;
+	padding: 0;
+	margin: 25px 0px 15px 0px;
+}
+#footer a:link{
+	color: darkgray;
+	font-size: 12px;
+	padding-top: 5px;
+}
+#footer div{
+	float: right;
+	text-align: right;
+	margin-right: 20px;
+	font-size: 12px;
+}
+h1{
+	position: fixed;
+	background-color: #6495ed;
+	background-image: url("../_images/logo.jpg");
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 283px;
+	height: 104px;
+	text-indent: -1000px;
+	margin-left: 20px;
+}
+h2{
+	padding: 0;
+	margin: 0;
+	color: #075674;
+	font-size: 36px;
+}
+#footer{
+	position: fixed;
+	width: 100%;
+	background: white;
+	bottom: 0px;
+	float: right;
+	border-top: 3px solid #238BB2;
+	color: darkgray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	z-index: 2;
+}
+#userinfo{
+	position: fixed;
+	top: 40px;
+	right: 20px;
+	height: 80px;
+	width: 320px;
+	float: right;
+	background: white;
+}
+#userinfo>img{
+	border: 1px solid lightgray;
+	margin-right: 5px;
+	float: left;
+}
+.logininfo{
+	position: relative;
+	top: 15px;
+	font-weight: bold;
+	color: #0071BC;
+}
+.addlink{
+	width: 200px;
+	height: 40px;
+	font-weight: bold;
+	color: white;
+	border: 0;
+	background: #00AC63;
+	text-transform: uppercase;
+	border-radius: 3px 3px 3px 3px;
+}
+.addlink:hover{
+	width: 200px;
+	height: 40px;
+	font-weight: bold;
+	color: white;
+	border: 0;
+	background: #00B8A3;
+	text-transform: uppercase;
+	cursor: hand;
+	border-radius: 3px 3px 3px 3px;
+}
+.action{
+	width: 80px;
+	height: 25px;
+	font-weight: bold;
+	color: white;
+	border: 0;
+	background: #0067BC;
+	text-transform: uppercase;
+	border-radius: 3px 3px 3px 3px;
+}
+
+.action:hover, .action:focus{
+	width: 80px;
+	height: 25px;
+	font-weight: bold;
+	color: #0067BC;
+	border: 0;
+	background: #86C8FF;
+	text-transform: uppercase;
+	cursor: hand;
+	border-radius: 3px 3px 3px 3px;
+}
+.message{
+	color: red;
+	font-weight: bold;
+}
+.export{
+	width: 200px;
+	height: 35px;
+	font-weight: bold;
+	color: white;
+	border: 0;
+	background: #0067BC;
+	text-transform: uppercase;
+	border-radius: 3px 3px 3px 3px;
+}
+.export:hover{
+	font-weight: bold;
+	color: #0067BC;
+	background: #86C8FF;
+}
+
+form label{
+	display: inline-block;
+	width: 180px;
+	font-size: 18px;
+	color: #238BB2;
+	height: 35px;
+}
+form input[type="text"],form input[type="date"],form select{
+	display: inline-block;
+	font-size: 18px;
+	color: #238BB2;
+	height: 35px;
+	padding-left: 2px;
+}
+form input[type="submit"], form .cancel{
+	color: white;
+	font-weight: bold;
+	width: 150px;
+	height: 50px;
+	font-size: 18px;
+	border: 0;
+	background: #238BB2;
+	margin-left: 185px;
+	border-radius: 3px 3px 3px 3px;
+}
+form input[type="submit"]:hover,form input[type="submit"]:focus, form .cancel:hover, form .cancel:focus{
+	background: #0067BC;
+	border-radius: 3px 3px 3px 3px;
+}
+form input[type="file"]{
+	color: white;
+	font-weight: bold;
+	width: 400px;
+	height: 27px;
+	font-size: 18px;
+	border: 0;
+	background: #238BB2;
+	border-radius: 3px 3px 3px 3px;
+}
+
+form .cancel{
+	margin-left: 5px;
+}
+.filter, fieldset{
+	border: 0px;
+	background: lightgray;
+}
+.filter label{
+	display: inline-block;
+	text-align: right;
+	width: 140px;
+}
+.filter input[type="submit"]{
+	margin-left: 3px;
+}
+
+.small{
+	width: 50px;
+}
+.medium{
+	width: 100px;
+}
+.long{
+	width: 200px;
+}
+.verylong{
+	width: 300px;
+}
+.superlong{
+	width: 1000px;
+}
+
+#display .submenu {
+	margin: 5px;
+	display: block;
+	width: 200px;
+	background: #0071BC;
+	height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	line-height: 40px;
+	padding: 0 0 0 15px;
+	
+}
+#display .submenu:hover {
+	background: #29ABE2;
+	color: white;
+}
+form{
+	overflow: hidden;
+}
+
+

@@ -1,0 +1,171 @@
+/* -------------------------------------------------------------- 
+   RESET (via Eric Meyer)
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+body { line-height: 1; }
+ol, ul , li{ list-style: none; font-size: 16px; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+:focus { outline: 0; }
+ins { text-decoration: none; }
+del { text-decoration: line-through; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+
+/* -------------------------------------------------------------- 
+   TYPOGRAPHY
+-------------------------------------------------------------- */
+
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,input,textarea { font-family: Trebuchet MS, Arial, sans-serif; }
+input,input[type="password"]{font-family: Arial;}
+
+/* HEADINGS */
+h1 { font-size: 40px; line-height: 50px; margin-bottom: 10px;}
+h2 { font-size: 30px; line-height: 40px; margin-bottom: 10px;}
+h3 { font-size: 20px; line-height: 30px; margin-bottom: 10px; border-bottom: 1px solid gray;}
+h4 { font-size: 14px; line-height: 20px; }
+h5 { font-size: 14px; line-height: 20px; }
+h6 { font-size: 14px; line-height: 20px; }
+
+/* TEXT ELEMENTS */
+p, ul, ol, dl { margin-bottom: 20px; font-size: 14px; line-height: 20px; }
+ul, ol { padding-left: 20px;}
+ul { list-style-type: circle; }
+ol { list-style-type: decimal; }
+dl dt { font-weight: bold; }
+dl dd { padding-left: 10px; }
+abbr, acronym { text-decoration: underline; }
+a { color: #009; text-decoration: none; }
+a:hover { text-decoration: none; }
+blockquote { margin: 20px 0; padding-left: 10px; }
+dfn { font-style: italic; font-weight: bold; }
+pre, code { margin: 20px 0; white-space: pre; }
+pre, code, tt { font: 10px monospace; line-height: 20px; } 
+tt { display: block; margin: 20px 0; line-height: 20px; }
+
+/* TABLES */
+table { margin-bottom: 20px; }
+th,td { padding: 5px 10px 5px 0; }
+
+
+/* -------------------------------------------------------------- 
+   FORMS
+-------------------------------------------------------------- */
+
+label { font-weight: normal; line-height: 20px;  }
+fieldset { padding: 9px; margin-bottom: 20px; border: 0px solid #ddd; }
+legend { padding: 0 10px; font-weight: bold; font-size: 14px; line-height: 20px; }
+textarea { padding: 10px; overflow: auto; resize: none; }
+
+input{
+    text-transform: uppercase;
+	font-weight: bold;
+}
+input:focus{
+	background: lightgreen;
+}
+
+select{padding-top: 2px;padding-bottom: 2px;
+	font-weight: bold;
+}
+select:focus{
+	background: lightgreen;
+}
+input[type="submit"]{ background: #0489B1; 
+		color: white; font-weight: bold; 
+		height: 35px;border: 1px solid white;
+		width: 100px;
+		}
+input[type="submit"]:hover{
+	background: darkgreen;
+}	
+
+input[type="submit"]:focus{
+	background: darkgreen;
+
+}	
+
+input[type="checkbox"]:focus {
+	color: green;
+}
+.tick:hover{
+	background: lightgreen;
+}
+.tick:active{
+	/*background: green;*/
+}
+
+#wrap{
+	position: relative;
+	width: 1000px;
+	margin: auto;
+	margin-top: 10px;
+	}
+#header{
+	position: relative;
+	width: 100%;
+	height: 120px;
+	font-family: Trebuchet MS, Arial, sans-serif;
+	border-bottom: 2px solid #0489B1;
+	}
+#header>h1{
+	position: absolute;
+	background: url("../_images/cccdmslogo.png");
+	text-indent: -99999px;
+	top: 25px;
+	left: 0px;
+	width: 300px;
+	height: 80px;
+	margin: 0;
+	padding: 0;
+}
+.header{
+	padding: 2px;
+	color: white;
+	background: #039ed6;
+}
+.entryheader{
+	font-weight: bold;
+	color: #0489B1;
+}
+#content{
+	background: white;
+	padding: 10px;
+}
+#footer{
+	float: left;
+	clear: both;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	width: 100%;
+	height: auto;
+	font-size: 12px;
+	color: #034c67;
+	text-align: right;
+	border-top: 2px solid #0489B1;
+	}
+#footer>span>a{
+	font-size: 12px;
+	color: #034c67;
+}
+
+.login{
+	position: relative;
+	float: right;
+	top: 50px;
+	right: 0px;
+	color: gray;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 16px;
+}
+
+.message{
+	color: red;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
