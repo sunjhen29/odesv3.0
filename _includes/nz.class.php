@@ -312,7 +312,7 @@ class NewZealand{
 		$sql .= "WHERE state=:state AND publication_name=:publication_name AND property_type=:property_type AND ";
 		$sql .= "unit_no=:unit_no AND street_no=:street_no AND street_no_suffix=:street_no_suffix AND ";
 		$sql .= "street_name=:street_name AND street_extension=:street_extension AND street_direction=:street_direction AND suburb=:suburb AND ";
-		$sql .= "city=:city AND sale_rent=:sale_rent ORDER BY id DESC";
+		$sql .= "city=:city AND sale_rent=:sale_rent ORDER BY id DESC LIMIT 1";
 		$database->query($sql);
 		$database->bind(':state',$state);
 		$database->bind(':publication_name',$pubname);

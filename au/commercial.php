@@ -38,7 +38,7 @@
 			<label>Year Built</label>
 		</div>
 		<div class="property_attribute">
-			<input name="year_building" class="small" type="text" value="<?php echo htmlentities($details['Year_Building']);?>" pattern="[0-9]{4}"/>
+			<input name="year_building" class="small" type="text" value="<?php echo htmlentities($details['Year_Building']);?>" pattern="^(18|20)\d{2}$"/>
 			<label>Year Building Refurbished</label>
 		</div>
 		</fieldset>

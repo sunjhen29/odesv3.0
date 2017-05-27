@@ -302,6 +302,25 @@ $(document).ready(function() {
 
 	$('#nzproperty').submit(function(){
 		var flag = false;
+
+		if ($("input[name='year_built']").val() > 2017){
+			alert("Invalid Year Built");
+			$("input[name='year_built']").focus()
+			return false;
+		}
+
+		if ($("input[name='year_building']").val() > 2017){
+			alert("Invalid Year Building Refurbished");
+			$("input[name='year_building']").focus()
+			return false;
+		}
+
+		if ($("input[name='bathrooms']").val() > 49 ){
+			alert("Invalid Input for Bathrooms");
+			$("input[name='bathrooms']").focus()
+			return false;
+		}
+
 		for (var count = 0; count <= 4; count++){
 			if($(".contact").eq(count).val() != "" || $(".agency").eq(count).val() != ""){
 				address = $("#property_address").text();
@@ -316,6 +335,9 @@ $(document).ready(function() {
 			$(".contact").eq(0).focus();
 			alert("Please enter at least one valid agent!!!");	
 		}
+
+
+
 		return flag;
 	});
 	

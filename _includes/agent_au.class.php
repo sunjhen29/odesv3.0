@@ -85,7 +85,7 @@ class Agent_Australia{
 		global $database;
 		$sql  = "SELECT  id, agency_name,agent_firstname,agent_surname,agent_contact,publication_name,publication_date,state FROM agents_au ";
 		$sql .= "WHERE agent_contact = :agent_contact and publication_name=:publication_name ";
-		$sql .= "ORDER BY id DESC";
+		$sql .= "ORDER BY id DESC LIMIT 1";
 		$database->query($sql);
 		$database->bind(':agent_contact',$agent_contact);
 		$database->bind(':publication_name',$pubname);

@@ -62,7 +62,7 @@
 			<label>Total Floors In Building</label>
 		</div>
 		<div class="property_attribute">
-			<input name="no_of_tennis" class="small" type="text" value="<?php echo htmlentities($details['No_Of_Tennis']);?>" pattern="[1-9]{1}"/>
+			<input name="no_of_tennis" class="small" type="text" value="<?php echo htmlentities($details['No_Of_Tennis']);?>" pattern="[1-5]{1}"/>
 			<label>No. of Tennis Court</label>
 		</div>
 		<div class="property_attribute">
@@ -70,7 +70,7 @@
 			<label>Year Built</label>
 		</div>	
 		<div class="property_attribute">
-			<input name="year_building" class="small" type="text" value="<?php echo htmlentities($details['Year_Building']);?>" pattern="[0-9]{4}"/>
+			<input name="year_building" class="small" type="text" value="<?php echo htmlentities($details['Year_Building']);?>" pattern="^(18|20)\d{2}$"/>
 			<label>Year Building Refurbished</label>
 		</div>
 		<div class="property_attribute">
